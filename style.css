@@ -66,6 +66,8 @@ body{
     width: 100%;
     background-color: white;
     z-index: 1;
+    top: 80px;
+    margin-left: 110px;
    
 }
 .flex{
@@ -128,13 +130,30 @@ h1{
       left: 40%;
       right: 40%;
   }
-  .top a{
+  /* .top a{
       color: #464646;
       text-decoration: none;
       font-size: 30px;
       padding: 0 10px;
-      /* background-color: white; */
-  }
+     
+  } */
+  .top a{
+    text-decoration: none;
+    margin-left: 20px;
+    color:#444444;
+}
+.top .fab{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.fa-facebook-f,.fa-twitter,.fa-dribbble,.fa-linkedin-in{
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
   .banner-btn{
       background-color: #EA513E;
       box-shadow: none;
@@ -150,10 +169,11 @@ h1{
       text-align: center;
       margin-top: 100px;
   }
-  .service1 a{
+  .service1 h4{
       font-size: 35px;
       text-transform: uppercase;
       color: #4F4F4F;
+      text-decoration: underline #4F4F4F;
   }
   h2{
       margin-top: 10px;
@@ -217,34 +237,67 @@ h1{
       margin-top: 10px;
   }
   /*design*/
+  .p-1-1{
+      text-align: start;
+  }
+  .p-1-1 b{
+    color: red;
+}
+ .passage1 .bold{
+    color: black;
+    font-weight: 600;
+}
+  .passage1 b{
+    color: red;
+  }
 .design1{
-    width: 60%;
+    width: 55%;
 }
 .design2{
-    width: 35%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-right: 20px;
     
 }
 .design{
-    background-color: #EA513E;
+    
     text-align: left;
     padding:5px 8px;
     color: white;
     font-weight: 500;
+    display: flex;
 }
 .box1{
-    width: 70%;
+    width: 70%;  
+    background-color: #EA513E;
+    padding: 5px; 
+}
+.r-1{
+    width: 30%;
 }
 .box2{
-    width: 50%;
+    width: 60%;
+    background-color: #EA513E;
+    padding: 5px; 
+}
+.r-2{
+    width:40%;
 }
 .box3{
-    width: 60%;
+    width: 50%;
+    background-color: #EA513E;
+    padding: 5px; 
+}
+.r-3{
+    width: 50%;
+}
+.remaining{
+    background-color: #E7E7E7;
 }
   /*contact*/
-  .location img{
+  .location iframe{
       width: 100%;
       margin-top: 40px;
   }
@@ -263,6 +316,7 @@ h1{
   .input{
       border: 1px solid black;
       margin-bottom: 20px;
+      padding: 8px;
   }
   .message{
       padding-bottom: 40px;
@@ -284,13 +338,18 @@ h1{
   .footer-btn{
       background-color: #EA513E;
       padding: 5px 10px;
+      box-shadow: 0;
+      border: 0;
   }
+  
   .footer-btn a{
       font-size: 20px;
       color: white;
       font-weight: 700;
       text-decoration: none;
       text-transform: uppercase;
+      box-shadow: 0;
+      border: 0;
   }
   /*another page of gallery*/
   .container1{
@@ -298,14 +357,11 @@ h1{
       margin: 0 auto;
   }
   .sidebar{
-      width: 30%;
+      width: 35%;
       background-color: #EA513E;
       position: fixed;
       height: 700px;
-      left: 0;
-      margin-left: 100px;
-     
-      
+      left: 0;     
   }
  
   .white{
@@ -318,6 +374,12 @@ h1{
      border: 1px solid white;
      background-color:#EA513E ;
      color: white;
+  }
+  .home-btn a{
+      font-size: 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: 300;
   }
   .justify{
       justify-content: space-between;
@@ -341,18 +403,22 @@ h1{
   .article-footer{
      text-align: left;
   }
-  .article-footer a{
-      text-decoration: none;
-      color: white;
+  .top2{
+      margin-top: 25px;
   }
-  .fab {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
+  .top2 .fab{
+    background-color: #EA513E;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    
+}
+  .top2 a{
     text-decoration: none;
-  }
-  
+    margin-left: 20px;
+    color:white;
+}
   /*right*/
   .flex-gallery{
       display: flex;
@@ -371,6 +437,7 @@ h1{
       display: flex;
       width: 100%;
       justify-content: space-between;
+      margin-left: 40px;
       
   }
   .col-1{
